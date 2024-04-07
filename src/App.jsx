@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './Components/Navbar'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -11,6 +12,7 @@ function App() {
   <div>
     {/* <h1 className='text-red-700'>Hello</h1> */}
     <Navbar/>
+    {/* <Timeline/> */}
   </div>
   )
 }

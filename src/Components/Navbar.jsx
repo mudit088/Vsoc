@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Navbar = () => {
   return (
-    <div className='h-screen w-screen bg-gradient-to-b from-blue-950 to-white'>
+    <div className='h-screen w-screen bg-gradient-to-b from-blue-900 to-white'>
       <div className='p-5'>
         <img className='h-28' src="/IMG_4259 2.png" alt="" />
       </div>
@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
         <div className='flex justify-center items-center mt-10'>
 
-        <button className=' px-14 py-4 bg-gradient-to-b from-white font-Vsoc to-blue-950 rounded-xl hover:scale-110 duration-300'>Register</button>
+        <button className=' px-14 py-4 bg-gradient-to-b from-white font-Vsoc to-blue-900 rounded-xl hover:scale-110 duration-300'>Register</button>
         </div>
     </div>
   )
