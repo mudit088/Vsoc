@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className='   '>
         <img src="/IMG_4259 2.png" alt="Logo" className="h-28 sm:h-24 animate-pulse " />
         </div>
-        <ul className="hidden sm:flex justify-center pr-5 items-center">
+        <ul className="hidden sm:flex justify-center mr-5 items-center">
           {links.map(({ id, link }) => (
             <li key={id} className="px-8 cursor-pointer capitalize text-md font-Vsoc text-white hover:scale-105 duration-200 ">
               <Link to={link} smooth duration={500}>
