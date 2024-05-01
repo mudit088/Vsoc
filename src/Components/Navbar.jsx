@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className=' w-screen bg-blue-900 '> 
     <div className='flex justify-around'>
         <div className='flex justify-center items-center   '>
-        <img src="/IMG_4259 2.png" alt="Logo" className="h-32  " />
+        <img src="/IMG_4259 2.png" alt="Logo" className="h-28 sm:h-32  " />
 
         <ul className="hidden sm:flex justify-center  items-center">
           {links.map(({ id, link }) => (
@@ -27,7 +27,7 @@ const Navbar = () => {
         </ul>
         </div>
         <div onClick={() => setNav(!Nav)} className="cursor-pointer  m-4 mt-10 z-10 text-gray-500 md:hidden">
-          {Nav ? <FaTimes size={50} /> : <FaBars size={50} />}
+          {Nav ? <FaTimes size={36} /> : <FaBars size={36} />}
         </div>
         </div>
 

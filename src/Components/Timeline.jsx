@@ -3,30 +3,50 @@ import { Chrono } from "react-chrono";
 
 const Timeline = () => {
     const items = [
-      {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      url: "http://www.history.com",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+
+    {
+      title: "June 4th' 2024",
+      cardTitle: "Registration",
+      cardDetailedText: "Registration ends on 4th June",
       media: {
         type: "IMAGE",
         source: {
-          url: "/bg1.jpg"
+          url: "/registration-300x200.jpg"
+        }
+      }
+    }, 
+    {
+      title: "May 15th' 2024",
+      cardTitle: "Selections",
+      cardDetailedText: "Selection mails rolling out in batches from 15th May.",
+      media: {
+        type: "IMAGE",
+        source: {
+          url: "/selection.png"
         }
       }
     }, 
 
     {
-      title: "May 1921",
-      cardTitle: "Hello",
-      url: "http://www.history.com",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+      title: "June 10th' 2024",
+      cardTitle: "Induction Ceremony",
+      cardDetailedText: "Induction Ceremony Starts from 11:30 AM",
       media: {
         type: "IMAGE",
         source: {
-          url: "/bg1.jpg"
+          url: "/induction.png"
+        }
+      }
+    }, 
+
+    {
+      title: "June 10th - July 10th' 2024",
+      cardTitle: "Event Starts",
+      cardDetailedText: "Event starts from June 10th(12 PM) - July 10th(12 AM)",
+      media: {
+        type: "IMAGE",
+        source: {
+          url: "/event.png"
         }
       }
     }, 
