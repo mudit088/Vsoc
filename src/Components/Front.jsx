@@ -41,9 +41,9 @@ const Front = () => {
         </button>
         </div>
         <div>
-        <img className='ml-10 sm:ml-10 w-80 sm:w-full mt-16 sm:mt-0 hover:transform -skew-x-10 -skew-y-20' src="/Hero_Image_Lite_Theme.svg" alt="" />
+        <img className='ml-6 sm:ml-10 w-80 sm:w-full mt-16 sm:mt-0 hover:transform -skew-x-10 -skew-y-20' src="/Hero_Image_Lite_Theme.svg" alt="" />
 
-        <p className='text-xl sm:text-2xl font-Vsoc font-semibold ml-16 sm:ml-64 pl-10'>Vinyasa Summer of Code</p>
+        <p className='text-xl sm:text-2xl font-Vsoc font-semibold ml-12 sm:ml-64 pl-8'>Vinyasa Summer of Code</p>
         </div>
         </div>
     </div>
