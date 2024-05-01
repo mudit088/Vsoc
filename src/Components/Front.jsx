@@ -46,7 +46,7 @@ const Front = () => {
         {/* <p className='text-xl sm:text-2xl font-Vsoc animate-slidein font-semibold ml-12 sm:ml-64 pl-8'>Vinyasa Summer of Code</p> */}
         </div>
         </div>
-        <img src="/treebg.png" className='flex justify-end float-right animate-slidein1800 opacity-0' alt="" />
+        <img src="/treebg.png" className='flex justify-end float-right pb-6 animate-slidein1800 opacity-0' alt="" />
     </div>
   )
 }
