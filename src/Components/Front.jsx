@@ -20,7 +20,7 @@ const Front = () => {
             // repeat={Infinity}
             duration={500}
           />
-           <p className=' font-Vsoc ml-20 mt-2 sm:mt-10 text-gray-800 animate-slidein1200 opacity-0 text-5xl sm:text-6xl'>Vinyasa Summer of Code</p>
+           <p className=' font-Vsoc ml-20 mt-2 sm:mt-8 text-gray-800 animate-slidein1200 opacity-0 text-5xl sm:text-5xl'>Vinyasa Summer of Code</p>
           
         </div>
         <div>
