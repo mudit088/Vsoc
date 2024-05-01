@@ -11,14 +11,15 @@ const Navbar = () => {
      
     ];
   return (
-    <div className=' w-screen bg-blue-900 '> 
-    <div className='flex justify-around'>
-        <div className='flex justify-center items-center   '>
-        <img src="/IMG_4259 2.png" alt="Logo" className="h-28 sm:h-32  " />
-
+    <div className=' w-screen bg-yellow-600 '> 
+    <div >
+      <div className='flex justify-between'>
+        <div className='   '>
+        <img src="/IMG_4259 2.png" alt="Logo" className="h-28 sm:h-24 animate-pulse " />
+        </div>
         <ul className="hidden sm:flex justify-center  items-center">
           {links.map(({ id, link }) => (
-            <li key={id} className="px-8 cursor-pointer capitalize text-xl font-Vsoc text-white hover:scale-105 duration-200 ">
+            <li key={id} className="px-8 cursor-pointer capitalize text-md font-Vsoc text-white hover:scale-105 duration-200 ">
               <Link to={link} smooth duration={500}>
                 {link}
               </Link>
