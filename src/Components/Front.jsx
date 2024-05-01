@@ -8,10 +8,10 @@ const Front = () => {
 
       <div className='flex flex-col sm:flex-row sm:flex justify-center items-center'>
                <img src="/birds2bg.png" className='h-24 animate-pulse' alt="" />
-      <div className=" font-Vsoc animate-slidein500 opacity-0 text-gray-800 m-10 md:m-0 pt-10 md:pt-36 md:text-3xl duration-500">
+      <div className=" font-Vsoc animate-slidein500 opacity-0 text-gray-800 m-10 md:m-0 pt-10 md:pt-36 md:text-2xl duration-500">
           <TypeAnimation className='ml-20  '
             sequence={[
-              'Vinyasa Club Presents...',
+              'Vinyasa Presents...',
               3000,
             ]}
             // wrapper="span"
