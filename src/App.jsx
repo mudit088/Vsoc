@@ -8,6 +8,9 @@ import Registrations from './Components/Registrations'
 import Timeline from './Components/Timeline'
 import Front from './Components/Front'
 import Navbar from './Components/Navbar'
+import Partaners from './Components/Partaners'
+import Footerb  from './Components/Footerb'
+
 
 
 function App() {
@@ -21,6 +24,9 @@ function App() {
     <About/>
     <Registrations/>
     <Timeline/>
+    <Partaners/>
+    <Footerb/>
+
   </div>
   )
 }
