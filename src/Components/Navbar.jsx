@@ -15,7 +15,7 @@ const Navbar = () => {
     <div >
       <div className='flex justify-between'>
         <div className='   '>
-        <img src="/IMG_4259 2.png" alt="Logo" className="h-28 sm:h-24 animate-pulse " />
+        <img src="/IMG_4259 2.png" alt="Logo" className="h-30 sm:h-24 animate-pulse " />
         </div>
         <ul className="hidden sm:flex justify-center mr-5 items-center">
           {links.map(({ id, link }) => (
