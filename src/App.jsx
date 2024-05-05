@@ -10,6 +10,7 @@ import Front from './Components/Front'
 import Navbar from './Components/Navbar'
 import Partaners from './Components/Partaners'
 import Footerb  from './Components/Footerb'
+import Leaderboard from './Components/Leaderboard'
 
 
 
@@ -24,6 +25,7 @@ function App() {
     <About/>
     <Registrations/>
     <Timeline/>
+    <Leaderboard/>
     <Partaners/>
     <Footerb/>
 
