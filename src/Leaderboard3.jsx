@@ -49,9 +49,9 @@ const Leaderboard3 = ({ info, currentPage, setCurrentPage, recordsPerPage }) => 
         <tbody>
           {currentRecords.map((val) => (
             <tr key={val.info} className="hover:bg-gray-50 ">
-              <td className="py-2 flex items-center justify-center ">{val.Position}</td>
-              <td className="py-2 flex items-center justify-center">{val.Github_Id}</td>
-              <td className="py-2 ">{val.Score}</td>
+              <td className="py-2 px-12 ">{val.Position}</td>
+              <td className="py-2 px-12 ">{val.Github_Id}</td>
+              <td className="py-2 px-12">{val.Score}</td>
               
             </tr>
           ))}
