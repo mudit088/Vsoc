@@ -1,9 +1,8 @@
-import React from 'react'
-import { Chrono } from "react-chrono";
+import React from 'react';
+import { Chrono } from 'react-chrono';
 
 const Timeline = () => {
-    const items = [
-
+  const items = [
     {
       title: "June 4th' 2024",
       cardTitle: "Registration",
@@ -26,7 +25,6 @@ const Timeline = () => {
         }
       }
     }, 
-
     {
       title: "June 10th' 2024",
       cardTitle: "Induction Ceremony",
@@ -38,7 +36,6 @@ const Timeline = () => {
         }
       }
     }, 
-
     {
       title: "June 10th - July 10th' 2024",
       cardTitle: "Event Starts",
@@ -50,23 +47,30 @@ const Timeline = () => {
         }
       }
     }, 
-  
   ];
-  return (
-    <div name='Timeline' className='h-full w-screen bg-gradient-to-b from-blue-900 to-white'>
-      <div className='pt-20 sm:pt-36'>
-      <h1 className=" font-display mb-10 text-white sm:text-blue-900 text-center font-Vsoc text-3xl sm:text-3xl font-extrabold leading-none tracking-tight md:text-5xl  lg:text-8xl lg:mb-24">
-       Timeline
-      </h1>
-      </div>
-    <div className='flex justify-center items-center '>
-      <div className=' ' style={{ width: '500px', height: '700px' }}>
-         <Chrono items={items} mode="VERTICAL" />
-</div>
-    </div>
-    </div>
-    
-  )
-}
 
-export default Timeline
+  return (
+    <div name='Timeline' className="h-screen w-screen bg-gradient-to-b from-orange-700 to-white">
+      <div className="pt-20 sm:pt-36">
+        <h1 className="font-display mb-10 text-white sm:text-orange-900 text-center font-Vsoc text-3xl sm:text-3xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl lg:mb-24">
+          Timeline
+        </h1>
+      </div>
+
+      <div className="flex justify-center sm:justify-normal items-center">
+        {/* Image visible on laptops, hidden on phones */}
+        <img
+          src="/birds2bg.png"
+          className="hidden sm:block h-36 ml-56  mb-96  animate-pulse"
+          alt=""
+        />
+
+        <div className="sm:ml-20" style={{ width: '500px', height: '700px' }}>
+          <Chrono items={items} mode="VERTICAL" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Timeline;

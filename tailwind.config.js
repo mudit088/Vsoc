@@ -24,10 +24,12 @@ export default {
       slidein2200:"slidein 1s ease-out 2200ms forwards",
      },
     fontFamily :{
-      Vsoc :["Protest Revolution","sans-serif"],
+      Vsoc :[],
     },
   },
-  plugins: [],
+  plugins: [ 
+    require('tailwind-scrollbar-hide')
+  ],
 }
 }
 

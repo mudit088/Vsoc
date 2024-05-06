@@ -11,6 +11,7 @@ import Navbar from './Components/Navbar'
 import Partaners from './Components/Partaners'
 import Footerb  from './Components/Footerb'
 import Leaderboard from './Components/Leaderboard'
+import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
 
 
@@ -19,16 +20,18 @@ function App() {
 
   return (
   <div>
+    
     {/* <h1 className='text-red-700'>Hello</h1> */}
+   
      <Navbar/>
     <Front/>
     <About/>
-    <Registrations/>
+    {/* <Registrations/> */}
     <Timeline/>
     <Leaderboard/>
     <Partaners/>
     <Footerb/>
-
+         
   </div>
   )
 }

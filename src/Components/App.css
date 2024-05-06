@@ -1,0 +1,7 @@
+/* Front.css */
+
+body ::-webkit-scrollbar{
+    display: none;
+}
+  /* Optionally, you can style other elements here if needed */
+  

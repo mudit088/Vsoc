@@ -1,12 +1,6 @@
-import React, { useState } from 'react';
-
+import React from 'react';
 
 const Leaderboard3 = ({ info, currentPage, setCurrentPage, recordsPerPage }) => {
- 
-
- 
- 
-
   const lastIndexOfCurrentPage = currentPage * recordsPerPage;
   const firstIndexOfCurrentPage = lastIndexOfCurrentPage - recordsPerPage;
 
@@ -34,67 +28,64 @@ const Leaderboard3 = ({ info, currentPage, setCurrentPage, recordsPerPage }) => 
     }
   };
 
-
   return (
-    <div className=" mx-auto p-4 sm : m-0">
-       <div className="">
-      <table className="min-w-full bg-white border border-gray-300">
-        <thead>
-          <tr className="bg-gray-100">
-            <th className="py-2 px-4">Position</th>
-            <th className="py-2 px-4">Github_Id</th>
-            <th className="py-2 px-4">Score</th>
-          </tr>
-        </thead>
-        <tbody>
-          {currentRecords.map((val) => (
-            <tr key={val.info} className="hover:bg-gray-50 ">
-              <td className="py-2 px-12 ">{val.Position}</td>
-              <td className="py-2 px-12 ">{val.Github_Id}</td>
-              <td className="py-2 px-12">{val.Score}</td>
-              
+    <div className="mx-auto p-4 bg-gradient-to-b from-orange-100 to-orange-700">
+      <div>
+        <table className="w-full px-4 bg-white border border-gray-300">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="py-2 px-4">Position</th>
+              <th className="py-2 px-4">Github ID</th>
+              <th className="py-2 px-4">Score</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
-      <nav className="mt-4 flex justify-center">
-        <ul className="flex list-none ">
-          <li className="mr-2">
-            <button
-              className="bg-blue-500 text-white px-4 py-2 rounded disabled:opacity-50"
-              onClick={previousPage}
-              disabled={currentPage === 1}
-            >
-              Prev
-            </button>
-          </li>
-          {pageNumbers.map((number) => (
-            <li key={number} className="mr-2">
+          </thead>
+          <tbody>
+            {currentRecords.map((val, index) => (
+              <tr key={index} className="hover:bg-orange-50">
+                <td className="py-2 px-4">{val.Position}</td>
+                <td className="py-2 px-4">{val.Github_Id}</td>
+                <td className="py-2 px-4">{val.Score}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <nav className="pt-4 flex justify-center">
+          <ul className="flex list-none">
+            <li className="mr-2">
               <button
-                className={`bg-blue-500 text-white px-4 py-2 rounded ${
-                  currentPage === number ? 'bg-blue-700' : ''
-                }`}
-                onClick={() => changeCurrentPage(number)}
+                className="bg-yellow-500 text-white px-4 py-2 rounded disabled:opacity-50"
+                onClick={previousPage}
+                disabled={currentPage === 1}
               >
-                {number}
+                Prev
               </button>
             </li>
-          ))}
-          <li>
-            <button
-              className="bg-blue-500 text-white px-4 py-2 rounded disabled:opacity-50"
-              onClick={nextPage}
-              disabled={currentPage === totalPageCount}
-            >
-              Next
-            </button>
-          </li>
-        </ul>
-      </nav>
+            {pageNumbers.map((number) => (
+              <li key={number} className="mr-2">
+                <button
+                  className={`bg-orange-500 text-white px-4 py-2 rounded ${
+                    currentPage === number ? 'bg-yellow-500' : ''
+                  }`}
+                  onClick={() => changeCurrentPage(number)}
+                >
+                  {number}
+                </button>
+              </li>
+            ))}
+            <li>
+              <button
+                className="bg-yellow-500 text-white px-4 py-2 rounded disabled:opacity-50"
+                onClick={nextPage}
+                disabled={currentPage === totalPageCount}
+              >
+                Next
+              </button>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   );
 };
 
-
-export default Leaderboard3
+export default Leaderboard3;
