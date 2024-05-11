@@ -12,13 +12,13 @@ const Navbar = () => {
 
   return (
     <div className="relative bg-[url('/uppersun.png')]">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-        <div className="flex items-center">
-          <img src="/logobg.png" alt="Logo" className="h-28 sm:h-24 animate-pulse" />
+      <div className="max-w-6xl mx-auto space-x-10 px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+        <div className="flex items-center space-x-10">
+          <img src="/logobg.png" alt="Logo" className="h-16 sm:h-16 animate-pulse" />
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden sm:flex space-x-8">
+        <nav className="hidden sm:flex space-x-8 text-xl font-vsoc text-gray-700 pl-36">
           {links.map(({ id, link }) => (
             <Link
               key={id}
