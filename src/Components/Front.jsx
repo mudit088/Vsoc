@@ -101,7 +101,7 @@ const Front = () => {
               </div>
               {/* Devfolio Apply Button */}
               <div
-                className="mb-36"
+                className="absolute"
                 data-hackathon-slug="YOUR-HACKATHON-SLUG"
                 data-button-theme="light"
                 style={{ height: '44px', width: '312px' }}
