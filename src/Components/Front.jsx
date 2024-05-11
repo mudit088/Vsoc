@@ -89,13 +89,15 @@ const Front = () => {
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold pb-36 text-yellow-200 font-vsoc">
                 Join Us This Summer
               </h2>
+              
+
+              <div className='flex justify-center items-center absolute'>
               <div
                 className="apply-button"
                 data-hackathon-slug="YOUR-HACKATHON-SLUG"
                 data-button-theme="light"
                 style={{ height: '44px', width: '312px' }}
               ></div>
-              <div className='flex justify-center items-center absolute'>
                 <button className='px-8 py-4 bg-gradient-to-b from-white font-Vsoc to-orange-700 rounded-xl hover:scale-110 duration-300'>Register</button>
                 <button className='px-10 py-4 bg-gradient-to-b from-white font-Vsoc to-orange-700 ml-5 rounded-xl hover:scale-110 duration-300'>
                   <ul>
