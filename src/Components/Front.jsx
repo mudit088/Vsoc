@@ -86,7 +86,7 @@ const Front = () => {
           ></animated.div>
           <animated.div style={fadeInAnimation}>
             <div className="flex justify-center items-center flex-col  mb-96">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold  text-yellow-200 font-vsoc">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold pb-36 text-yellow-200 font-vsoc">
                 Join Us This Summer
               </h2>
               <div className='flex justify-center items-center absolute'>
