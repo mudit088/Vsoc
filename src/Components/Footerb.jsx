@@ -10,8 +10,8 @@ export function Footerb() {
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div className="flex pl-2 sm:pl-36 ">
-          <img src="/widthlogo.png" alt="Vinyasa logo" title="Vinyasa" className="h-24 p-2 ml-4" />
-          <p className=" font-Vsoc pl-20 sm:pl-8 text-2xl flex items-center align-middle text-white">VSOC</p>
+          <img src="/IMG_4259 2.png" alt="Vinyasa logo" title="Vinyasa" className="h-28 p-1 ml-4" />
+          <a href="https://www.vinyasa.tech/" className=" font-Vsoc pl-20  sm:pl-2 text-gray-500  text-xl flex items-center align-middle font-vsoc ">Vinyasa</a>
           </div>
           <div className="grid grid-cols-2 gap-12  sm:pb-0 ml-5 sm:ml-0 sm:mt-4 sm:grid-cols-3  ">
             <div>
@@ -25,7 +25,7 @@ export function Footerb() {
               <Footer.Title title="Contact us" className="pb-4" />
               <Footer.LinkGroup col>
                 <Footer.Link href="vinyasacsd@gmail.com">vinyasacsd@gmail.com</Footer.Link>
-                <Footer.Link className="pb-2" href="#">Vinyasa</Footer.Link>
+                <Footer.Link className="pb-2" href="https://www.vinyasa.tech/">Vinyasa</Footer.Link>
               </Footer.LinkGroup>
             </div>
           </div>

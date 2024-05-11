@@ -23,14 +23,16 @@ export default {
       slidein1800:"slidein 1s ease-out 1800ms forwards",
       slidein2200:"slidein 1s ease-out 2200ms forwards",
      },
-    fontFamily :{
-      Vsoc :[],
+    },
+    fontFamily:{
+       vsoc :["Platypi","serif"],
     },
   },
+ 
   plugins: [ 
     require('tailwind-scrollbar-hide')
   ],
 }
-}
+
 
 
