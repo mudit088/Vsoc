@@ -91,9 +91,9 @@ const Front = () => {
               </h2>
               
 
-              <div className='flex justify-center items-center absolute'>
+              <div className='flex flex-col space-y-6 justify-center items-center space-x-8 absolute'>
               <div
-                className="apply-button"
+                className="m-2 ml-2"
                 data-hackathon-slug="YOUR-HACKATHON-SLUG"
                 data-button-theme="light"
                 style={{ height: '44px', width: '312px'}}
