@@ -96,7 +96,7 @@ const Front = () => {
                 className="apply-button"
                 data-hackathon-slug="YOUR-HACKATHON-SLUG"
                 data-button-theme="light"
-                style={{ height: '44px', width: '312px' }}
+                style={{ height: '44px', width: '312px'}}
               ></div>
                 <button className='px-8 py-4 bg-gradient-to-b from-white font-Vsoc to-orange-700 rounded-xl hover:scale-110 duration-300'>Register</button>
                 <button className='px-10 py-4 bg-gradient-to-b from-white font-Vsoc to-orange-700 ml-5 rounded-xl hover:scale-110 duration-300'>
