@@ -56,7 +56,7 @@ const Front = () => {
           >
             <animated.div style={fadeInAnimation}>
               <div className="animate-slidein1200 opacity-0 font-Vsoc mt-36 sm:mt-56">
-                <h1 className="text-4xl md:text-5xl text-yellow-200 font-vsoc lg:text-6xl font-bold ">
+                <h1 className="text-4xl md:text-5xl text-yellow-400 font-vsoc lg:text-6xl font-bold ">
                   Vinyasa Summer of Code
                 </h1>
                 <p className="text-xl font-vsoc  text-yellow-200  mt-4">
@@ -91,10 +91,10 @@ const Front = () => {
               </h2>
               
 
-              <div className='flex flex-col space-y-6 justify-center items-center space-x-8 absolute'>
+              <div className='flex flex-col space-y-6 justify-center items-center space-x-8  absolute'>
               <div
                 className="m-2 ml-2"
-                data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                data-hackathon-slug="vinyasa-csd"
                 data-button-theme="light"
                 style={{ height: '44px', width: '312px'}}
               ></div>
