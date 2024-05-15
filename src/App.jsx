@@ -10,8 +10,9 @@ import Front from './Components/Front'
 import Navbar from './Components/Navbar'
 import Partaners from './Components/Partaners'
 import Footerb  from './Components/Footerb'
-import Leaderboard from './Components/Leaderboard'
+// import Leaderboard from './Components/Leaderboard'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+import LeaderboardN from './Components/LeaderboardN'
 
 
 
@@ -28,7 +29,8 @@ function App() {
     <About/>
     {/* <Registrations/> */}
     <Timeline/>
-    <Leaderboard/>
+    <LeaderboardN/>
+    {/* <Leaderboard/> */}
     <Partaners/>
     <Footerb/>
          

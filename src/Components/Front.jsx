@@ -31,7 +31,7 @@ const Front = () => {
         <ParallaxLayer
         sticky={{start: 0.4, end :2.5}}
         >
-        <img src="/baloon1bg.png" className='flex justify-center items-center h-72 align-middle mt-36 ml-96  pl-80 ' alt="" />
+        <img src="/baloon1bg.png" className='flex justify-center items-center h-72 align-middle mt-36 ml-12 pl-0 sm:mt-36 sm:ml-96  sm:pl-80 ' alt="" />
         </ParallaxLayer>
 
         {/* Second Parallax Layer */}
@@ -57,16 +57,26 @@ const Front = () => {
         </ParallaxLayer>
 
         {/* Background Images with Parallax */}
-        <ParallaxLayer offset={0} speed={0.1} style={{ zIndex: -1 }}>
-          <div className="absolute inset-0">
-            <img src="/uppersun.png" alt="Upper Sun" className="w-full h-full object-cover" />
-          </div>
-        </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={0.1} style={{ zIndex: -1 }}>
-          <div className="absolute inset-0">
-            <img src="/downsun.png" alt="Lower Sun" className="w-full h-full object-cover" />
-          </div>
-        </ParallaxLayer>
+        <div className="relative h-screen">
+      <ParallaxLayer offset={0} speed={0.5} style={{ zIndex: -1 }}>
+        <div className="absolute inset-0">
+          <img
+            src="/uppersun.png"
+            alt="Upper Sun"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </ParallaxLayer>
+      <ParallaxLayer offset={1} speed={0.3} style={{ zIndex: -1 }}>
+        <div className="absolute inset-0">
+          <img
+            src="/downsun.png"
+            alt="Lower Sun"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </ParallaxLayer>
+    </div>
       </Parallax>
     </div>
   );
