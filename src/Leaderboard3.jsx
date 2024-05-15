@@ -29,7 +29,7 @@ const Leaderboard3 = ({ info, currentPage, setCurrentPage, recordsPerPage }) => 
   };
 
   return (
-    <div className="mx-auto p-4 bg-gradient-to-b from-yellow-100 to-orange-500">
+    <div className="mx-auto p-4 bg-yellow-100">
       <div>
         <table className="w-full px-4 bg-orange-200 border border-gray-300 rounded-2xl">
           <thead>

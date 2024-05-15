@@ -2,7 +2,7 @@ import React from 'react'
 
 const Partaners = () => {
   return (
-    <div name='Partners' className=' w-screen h-screen flex justify-center items-center bg-gradient-to-b from-orange-500 to-yellow-100'>
+    <div name='Partners' className=' w-screen h-screen flex justify-center items-center bg-gradient-to-b from-yellow-100 to-orange-50'>
       <div className='pt-12 sm:pt-24'>
     <h1 className=" font-display text-orange-900 mb-20 text-center font-Vsoc  text-3xl font-extrabold leading-none tracking-tight md:text-5xl  lg:text-6xl ">
        Partners

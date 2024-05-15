@@ -16,7 +16,7 @@ const Front = () => {
 }, []);
 
   return (
-    <div className="h-full w-full bg-cover bg-gradient-to-b from-red-200 to-yellow-300 min-h-screen flex items-center justify-center">
+    <div className="h-full w-full bg-cover bg-gradient-to-b from-red-200 to-yellow-100 min-h-screen flex items-center justify-center">
       <Parallax pages={2}>
         {/* First Parallax Layer */}
         <ParallaxLayer offset={0} speed={0.5}
