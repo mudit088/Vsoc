@@ -35,7 +35,7 @@ const Front = () => {
         </ParallaxLayer>
 
         {/* Second Parallax Layer */}
-        <ParallaxLayer offset={1} speed={0.7}>
+        <ParallaxLayer offset={1} speed={0.5}>
           <animated.div className="h-full flex flex-col items-center justify-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-200 mb-4">Join Us This Summer</h2>
             <div className="flex flex-col sm:flex-row sm:space-y-0 space-y-4 sm:space-x-4">
