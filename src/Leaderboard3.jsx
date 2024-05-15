@@ -29,9 +29,9 @@ const Leaderboard3 = ({ info, currentPage, setCurrentPage, recordsPerPage }) => 
   };
 
   return (
-    <div className="mx-auto p-4 bg-gradient-to-b from-yellow-200 to-orange-600">
+    <div className="mx-auto p-4 bg-gradient-to-b from-yellow-100 to-orange-500">
       <div>
-        <table className="w-full px-4 bg-yellow-200 border border-gray-300 rounded-2xl">
+        <table className="w-full px-4 bg-orange-200 border border-gray-300 rounded-2xl">
           <thead>
             <tr className="bg-gray-100 rounded-2xl">
               <th className="py-2 px-4">Position</th>
@@ -41,7 +41,7 @@ const Leaderboard3 = ({ info, currentPage, setCurrentPage, recordsPerPage }) => 
           </thead>
           <tbody>
             {currentRecords.map((val, index) => (
-              <tr key={index} className="hover:bg-orange-200">
+              <tr key={index} className="hover:bg-yellow-200">
                 <td className="py-2 px-4">{val.Position}</td>
                 <td className="py-2 px-4">{val.Github_Id}</td>
                 <td className="py-2 px-4">{val.Score}</td>

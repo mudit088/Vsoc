@@ -50,7 +50,7 @@ const Timeline = () => {
   ];
 
   return (
-    <div name='Timeline' className="h-full w-screen bg-gradient-to-b from-orange-600 to-yellow-200">
+    <div name='Timeline' className="h-full w-screen bg-gradient-to-b from-orange-500 to-yellow-100">
       <div className="pt-20 sm:pt-36">
         <h1 className="font-display mb-10 text-white sm:text-orange-900 text-center font-Vsoc text-3xl sm:text-3xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl lg:mb-24">
           Timeline

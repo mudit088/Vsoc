@@ -38,7 +38,7 @@ const Leaderboard2 = ({ array }) => {
   }, [selectedCompany, selectedGender, searchInput, array]);
 
   return (
-    <div className='w-screen h-screen   bg-gradient-to-b from-yellow-200 to-orange-600 '>
+    <div className='w-screen h-screen   bg-gradient-to-b from-yellow-100 to-orange-500 '>
       <div className='pt-20'>
         <h1 className="font-display text-orange-900 text-center font-Vsoc text-3xl font-extrabold leading-none mb-10 tracking-tight md:text-5xl lg:text-6xl lg:mb-24">
           Leaderboard

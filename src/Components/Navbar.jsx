@@ -11,7 +11,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="relative bg-[url('/uppersun.png')]">
+    <nav className="sticky top-0 z-10 bg-orange-700 backdrop-filter backdrop-blur-lg bg-opacity-30 ">
       <div className="max-w-6xl mx-auto space-x-10 px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-10">
           <img src="/logobg.png" alt="Logo" className="h-16 sm:h-16 " />
@@ -25,7 +25,7 @@ const Navbar = () => {
               to={link}
               smooth
               duration={500}
-              className="cursor-pointer capitalize text-md font-Vsoc font-bold  text-yellow-200  hover:scale-105 duration-200"
+              className="cursor-pointer capitalize text-md font-Vsoc font-bold  text-gray-600  hover:scale-105 duration-200"
             >
               {link}
             </Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
           </ul>
         )}
         
-      </div>
+      </nav>
    
   );
 };
